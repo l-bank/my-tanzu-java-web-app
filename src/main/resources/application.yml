@@ -1,6 +1,11 @@
 spring:
   application:
     name: tanzu-java-web-app
+  cloud:
+    gcp:
+      sql:
+        database-name: db
+        instance-connection-name: lbank-tanzu-poc:europe-west3:psql-claim-6-59hlj-bcpt5
 management:
   endpoints:
     web:
